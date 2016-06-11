@@ -6,6 +6,7 @@ app = Flask(__name__)
 def index(number):
     return funct(number)
 
+#this is the only function with test coverage
 def funct(number):
     return "This is the number, {}".format(number)
 
